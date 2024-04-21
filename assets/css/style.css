@@ -1,0 +1,310 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a,
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .section-padding {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+
+
+  /* -----nav
+=================================== */
+  .nav-link {
+    margin-left: 20px !important;
+  }
+  .hero-nav{
+    padding: 20px 200px 20px 200px;
+  }
+  .hero-icon{
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 900px) {
+    .nav-link {
+    margin-left: 0px !important;
+  }
+    .hero-nav{
+    padding: 10px 30px 10px 30px;
+  }
+  }
+
+
+
+
+/* -----hero area
+=================================== */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-area .content {
+  max-width: 400px;
+  padding: 0 15px;
+}
+
+.hero-area .content h1 {
+  font-size: 28px;
+}
+
+.hero-area .content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hero-area .content button {
+  font-size: 16px;
+}
+
+.hero-btn {
+  background-color: rgb(224, 44, 109);
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+}
+
+.hero-btn:hover {
+  background-color: rgb(235, 169, 193);
+  color: #000;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(224, 44, 109);
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+}
+
+@media (max-width: 768px) {
+  .hero-area .content {
+    max-width: 100%;
+  }
+}
+
+
+
+  
+  /* -----companie
+=================================== */
+.companie-line {
+  margin-top: 25px;
+}
+
+.companie-img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  max-height: 70px;
+}
+
+@media (max-width: 992px) {
+  .companie-img {
+    max-height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .companie-line {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-md-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+
+  /* --------product
+  --------------------------------- */
+  #product {
+    margin-top: 150px;
+    margin-bottom: 80px;
+  }
+  
+  .product-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .product-card {
+    height: auto;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 1px 2px rgb(223, 221, 221);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .product-img-container {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .product-img-container img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .product-card-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .product-card-rating {
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  .product-card-des {
+    font-size: 16px;
+    color: #575353;
+  }
+  
+  .star {
+    color: #FB8200;
+  }
+
+  .producr-seemore {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 0, 149);
+    float: right;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-img-container {
+      height: 180px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .product-card {
+      padding: 15px;
+    }
+  
+    .product-card-title {
+      font-size: 20px;
+    }
+  
+    .product-price {
+      font-size: 18px;
+    }
+  
+    .product-card-rating,
+    .product-card-des {
+      font-size: 14px;
+    }
+  }
+  
+
+
+  /* --------about
+  --------------------------------- */
+  #about {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  
+  .about-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A0826;
+  }
+  
+  .about-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6C6C;
+    margin-bottom: 20px;
+  }
+  
+  .about-btn {
+    background-color: rgb(224, 44, 109);
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .about-btn:hover {
+    background-color: rgb(204, 26, 89);
+  }
+
+  #footer{
+    background-color: #0A0826;
+    height: 240px;
+  }
+
+  #footer p {
+    margin-bottom: 0rem!important;
+  }
+  .footer-title {
+    padding-top: 60px;
+    color: #FFFFFF;
+    text-align: center; 
+}
+
+.footer-description {
+    text-align: center; 
+    color: #D9DBE1;
+}
+.footer-icon {
+    display: inline-block; 
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #191646; 
+    margin: 10px; 
+    text-align: center;
+    line-height: 32px;
+}
+  
+  
